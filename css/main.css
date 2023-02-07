@@ -1857,11 +1857,11 @@ section.s2 {background-image: url(../img/book3.png); background-size: 90vw 150vw
 section.s2 .box {display: flex; flex-flow: column wrap; }
 
 
-section.s2 .left_box {margin-left: 15vw;width: 100%; display: flex; flex-flow: column wrap; height: 50%;}
+section.s2 .left_box {margin-left: 10vw;width: 100%; display: flex; flex-flow: column wrap; height: 50%;}
 
-section.s2 .left_box .photo {width: 28vw;  margin-left: 40vw; margin-top: 0; height: 20vw;  }
-section.s2 .left_box .tel li {display: flex; align-items: center; padding: 0.2vw;}
+section.s2 .left_box .photo {width: 28vw;  margin-left: 50vw; margin-top: 5vw; height: 20vw;  }
 
+section.s2 .left_box .tel {display: flex; align-items: center; padding: 0.2vw; }
 section.s2 .left_box .tel li:first-child img {width: 4vw; height: 4vw; margin-right: 0.2vw;}
 section.s2 .left_box .tel li:nth-child(2) img {width: 3vw; height: 3vw; margin-left: 0.2vw; margin-right: 0.5vw;}
 section.s2 .left_box .tel li:last-child img {width: 3vw; height: 3vw; margin-right: 0.5vw; margin-left: 0.25vw;}
@@ -1870,6 +1870,12 @@ section.s2 .left_box .tel li:last-child img {width: 3vw; height: 3vw; margin-rig
 section.s2 .left_box p {font-size: 2.5vw;}
 
 section.s2 .left_box .tel .tmi {display: none;}
+
+section.s2 .left_box .school {margin-top: 3vw; margin-left: 0vw; line-height: 3vw; }
+section.s2 .left_box .school b {margin-right: 2vw;}
+section.s2 .left_box .school li {padding: 0.2vw;}
+section.s2 .left_box .school p {font-size: 2.3vw; }
+
 
 
 section.s2 .right_box {width: 100%; height: 50%; margin: 0 auto;}
@@ -1971,12 +1977,12 @@ section.s5 .box iframe {width: 100%; height: 430px;}
 
 section.s6 .s6_wrap {display: flex; flex-flow: column nowrap;}
 section.s6 .box {width:80%;}
-section.s6 .box h1 {font-size: 6vw; margin-left: 18vw;}
+section.s6 .box h1 {font-size: 6vw; margin-left: 19vw; margin-top: 10vw;}
 
 section.s6 .box h2 {font-size: 4vw; }
 
-section.s6 .box .thankyou_message {margin-top: 1vw;}
-section.s6 form {margin-top: 0.5vw; width: 100%;}
+section.s6 .box .thankyou_message {margin-top: 2vw}
+section.s6 form {margin-top: 1vw; width: 100%;}
 
 section.s6 .bondee_wrap {width: 50vw; margin-right: 5vw;  height: 50vw;}
 section.s6 .bondee_wrap .bondee { width: 70vw;}

@@ -1785,15 +1785,15 @@ footer small {font-size: 0.8vw; color: #2f3d98;}
 /* cursor { cursor : url(cursor.png) 20 30, url(cursor.png) 20 30, auto; } */
 body, html {cursor: url(../img/cursor2.png), url(../img/cursor2.png), auto}
 a {cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
-.popup_box::-webkit-scrollbar {background-color: #faf3db;}
-.popup_box::-webkit-scrollbar-thumb {background-color: #e54848; border-radius: 50px;}
+.popup_box::-webkit-scrollbar {background-color: #faf3db;width: 20px; height: 20px;}
+.popup_box::-webkit-scrollbar-thumb {background-color: #e54848; border-radius: 50px; width: 20px;}
 
 @keyframes up {
   0%,50%{transform: translateY(0);}
   50% {transform: translateY(-20px);}
 }
 
-c {color: #e64848;}
+
 #fp-nav ul li a {background-image: url(../img/nav.png); width: 30px; height: 30px; background-position: center;
                 background-repeat: no-repeat; background-size: cover;}
 #fp-nav ul li a span, .fp-slidesNav ul li a span {background: none;}
@@ -1828,7 +1828,7 @@ header nav ul li .heart::after { width: 6px; height: 6px; top: -60%;}
 header .member {display: none;}
 
 svg {width: 100vw;}
-section.s1 .gif { width: 80vw; margin-top: 50vw; margin-left: 10vw;}
+section.s1 .gif { width: 80vw; margin-top: 60vw; margin-left: 10vw;}
 
 
 
@@ -1852,38 +1852,50 @@ section.s2 .left_box p {font-size: 2.5vw;}
 section.s2 .left_box .tel .tmi {display: none;}
 
 
-
-
-section.s2 .right_box {width: 60%; height: 50%;}
+section.s2 .right_box {width: 100%; height: 50%; margin: 0 auto;}
 section.s2 .right_box .s2txt { display: none; }
                         
-section.s2 .right_box .ment {margin-top: 4vw; text-align: right; width: 30vw; height: 5vw; margin-left: 2vw;}
-section.s2 .right_box .ment h1 {font-family: 'GyeonggiBatang'; font-size: 2vw; margin-bottom: 1vw; line-height: 2.4vw;}
-section.s2 .right_box .ment span {color: #e54848;}
-section.s2 .right_box .ment h3 {font-family: 'GyeonggiBatang'; line-height: 1.5vw; text-decoration: underline; text-underline-offset:0.25vw;}
+section.s2 .right_box .ment {text-align: right; width: 70vw; height: 0vw; margin-top: 10vw;}
+section.s2 .right_box .ment h1 {font-size: 4vw; line-height: 4.5vw;}
+section.s2 .right_box .ment h3 {line-height: 4vw; font-size: 2.3vw;}
 
 
-section.s2 .right_box .skill {display: grid; grid-template-columns: repeat(3,1fr); width: 15vw;  text-align: center;
-                        margin-top: 5vw; margin-left: 6vw;}
-section.s2 .right_box .skill .skill_box p {font-size: 0.9vw; font-family: 'GyeonggiBatang';}
+section.s2 .right_box .skill {display: grid; grid-template-columns: repeat(3,1fr); width: 10vw;  text-align: center;
+                        margin-top: 20vw; margin-left: 6vw;}
+section.s2 .right_box .skill .skill_box p {font-size: 2vw;}
 
-section.s2 .right_box .skill .skill_box .box {width: 80px; height: 80px; border-radius: 100%; margin: 2.5vw; 
-                        margin-bottom: 1.5vw; overflow: hidden; position: relative;}
-
-section.s2 .right_box .skill .skill_box .box .percent {position: absolute; left: 0; top: 0; z-index: 3; width: 100%;
-                                        height: 100%; display: flex; display: -webkit-flex; align-items: center; justify-content: center;
-                                    font-size: 0.9vw; color: #fff; margin-top: 0.5vw;}
-section.s2 .right_box .skill .skill_box .box .water {position: absolute; left: 0; top: 0; z-index:2; width: 100%; height: 100%;
-                                    transform:translate(0,100%); background:#e54848; transition: all 0.3s;}
-section.s2 .right_box .skill .skill_box .box .water_wave {width: 200%; position: absolute; bottom: 100%;}
-section.s2 .right_box .skill .skill_box .box .water_wave_back {right: 0; fill: #fa9898; 
-                                                -webkit-animation: wave-back 1.4s infinite linear;
-                                                animation: wave-back 1.4s infinite linear;}
-section.s2 .right_box .skill .skill_box .box .water_wave_front {left: 0; fill: #e54848; margin-bottom: -1px;
-                                                -webkit-animation: wave-front 0.7s infinite linear;
-                                                        animation: wave-front 0.7s infinite linear;}
+section.s2 .right_box .skill .skill_box .box {width: 60px; height: 60px; border-radius: 100%; margin: 5vw; 
+                        margin-bottom: 1.5vw; }
 
 
+
+section.s3 > div {display: flex; flex-flow: column nowrap;}
+
+section.s3 .left_box {width: 100vw; }
+section.s3 .left_box .gift {margin-left: 0vw; margin-top: 20vw; text-align: center;}
+section.s3 .left_box .gift h1 {font-size: 4vw; margin-bottom: 0.7vw; }
+section.s3 .left_box .gift p { margin-left: 7.5vw; font-size: 2.5vw;}
+
+section.s3 .left_box .box { margin-top:2vw; width: 70%; margin-left: 15vw;}
+
+section.s3 .box .buttons {width: 60vw; margin: 0 auto;} 
+section.s3 .box .buttons ul li { width:25%; height: 30px; padding:3vw 0.5vw; margin-top: 1vw; }
+
+
+section.s3 .right_box {width: 80%; margin: 0 auto; margin-top: 15vw;}
+section.s3 .right_box .photos {margin-bottom: 15vw; width: 80vw; }
+section.s3 .right_box .photos ul li { padding:1.2vw; width:100%; height:60vw;}
+section.s3 .right_box .photos ul li h2 { font-size: 3vw; margin-top: 1.5vw;}
+section.s3 .right_box .photos ul li p {font-size: 1vw; margin-top: 1vw;}
+section.s3 .right_box .photos ul li .graph {width: 74vw;  margin-top: 3vw; height: 45vw; margin-left: 3vw; }
+section.s3 .right_box .photos ul li .search_btn { width:80px; height:80px; padding: 4vw;}
+
+
+
+                        
+#popup { width:400px; height:500px;}
+#popup .close {width:60px; height:55px; font-weight: 550;
+    font-size:40px; padding-right:23px; right:-55px; top:50px;}
 
 
 

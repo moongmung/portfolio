@@ -1839,9 +1839,9 @@ header nav {width: 100vw; margin-left: 15vw;}
 header nav ul li { margin-right: 2.8vw; margin-top: 5vw; float: left;}
 header nav ul li a { font-size: 2.8vw;}
 
-header nav ul li .heart {width: 6px; height: 6px; top: -2vw; left: 0.2vw;}
-header nav ul li .heart::before {width: 6px; height: 6px; left: -60%;}
-header nav ul li .heart::after { width: 6px; height: 6px; top: -60%;}
+header nav ul li .heart {width: 5px; height: 5px; top: -2vw; left: 0.2vw;}
+header nav ul li .heart::before {width: 5px; height: 5px; left: -60%;}
+header nav ul li .heart::after { width: 5px; height: 5px; top: -60%;}
 
 header .member {display: none;}
 
@@ -1892,6 +1892,8 @@ section.s2 .right_box .skill .skill_box p {font-size: 2vw;}
 
 section.s2 .right_box .skill .skill_box .box {width: 60px; height: 60px; border-radius: 100%; margin: 5vw; 
                         margin-bottom: 1.5vw; }
+
+section.s2 .right_box .skill .skill_box .box .percent {font-size: 3vw; margin-top: 1vw;}
 
 
 

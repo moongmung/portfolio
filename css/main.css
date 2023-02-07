@@ -1512,6 +1512,26 @@ section.s3 .right_box .photos ul li .search_btn { position: absolute; width:160p
                         background-color:#2f3d98; bottom:0; right:0; border-radius: 100%; padding: 2vw;}
 
 
+section.s3 .right_box .photos ul li:first-child .graph {background-image: url(../img/g1.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(2) .graph {background-image: url(../img/g2.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(3) .graph {background-image: url(../img/g3.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(4) .graph {background-image: url(../img/g4.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(5) .graph {background-image: url(../img/g5.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(6) .graph {background-image: url(../img/g6.png);
+    background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(7) .graph {background-image: url(../img/g7.png);
+    background-size: cover;}
+section.s3 .right_box .photos ul li:nth-child(8) .graph {background-image: url(../img/g8.png);
+    background-size: cover;}
+section.s3 .right_box .photos ul li:last-child .graph {background-image: url(../img/g9.png);
+    background-size: cover;}   
+
+
 
                         
 #popup {position: fixed; z-index:105; width:1200px; height:900px;    
@@ -1785,8 +1805,8 @@ footer small {font-size: 0.8vw; color: #2f3d98;}
 /* cursor { cursor : url(cursor.png) 20 30, url(cursor.png) 20 30, auto; } */
 body, html {cursor: url(../img/cursor2.png), url(../img/cursor2.png), auto}
 a {cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
-.popup_box::-webkit-scrollbar {background-color: #faf3db;width: 20px; height: 20px;}
-.popup_box::-webkit-scrollbar-thumb {background-color: #e54848; border-radius: 50px; width: 20px;}
+.popup_box::-webkit-scrollbar {background-color: #faf3db;}
+.popup_box::-webkit-scrollbar-thumb {background-color: #e54848; border-radius: 50px; }
 
 @keyframes up {
   0%,50%{transform: translateY(0);}
@@ -1811,17 +1831,15 @@ a {cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
 @media screen and (max-width:480px) {
 
 #fp-nav ul li {display: none;}
-.top {display: none;}
 section {height: 1400px;}
 
 header{height: 13vw; padding: 1.5vw;}
 header .logo {width: 11vw; height: 11vw;}
-header nav {width: 100vw; margin-left: 20vw;}
-header nav ul li { margin-right: 3vw; margin-top: 4vw; float: left;}
-header nav ul li:nth-child(5) {display: none;}
-header nav ul li a { font-size: 3vw;}
+header nav {width: 100vw; margin-left: 15vw;}
+header nav ul li { margin-right: 2.8vw; margin-top: 5vw; float: left;}
+header nav ul li a { font-size: 2.8vw;}
 
-header nav ul li .heart {width: 6px; height: 6px; top: -1.6vw; left: 0.2vw;}
+header nav ul li .heart {width: 6px; height: 6px; top: -2vw; left: 0.2vw;}
 header nav ul li .heart::before {width: 6px; height: 6px; left: -60%;}
 header nav ul li .heart::after { width: 6px; height: 6px; top: -60%;}
 
@@ -1829,6 +1847,8 @@ header .member {display: none;}
 
 svg {width: 100vw;}
 section.s1 .gif { width: 80vw; margin-top: 60vw; margin-left: 10vw;}
+
+
 
 
 
@@ -1869,6 +1889,8 @@ section.s2 .right_box .skill .skill_box .box {width: 60px; height: 60px; border-
 
 
 
+
+
 section.s3 > div {display: flex; flex-flow: column nowrap;}
 
 section.s3 .left_box {width: 100vw; }
@@ -1876,7 +1898,7 @@ section.s3 .left_box .gift {margin-left: 0vw; margin-top: 20vw; text-align: cent
 section.s3 .left_box .gift h1 {font-size: 4vw; margin-bottom: 0.7vw; }
 section.s3 .left_box .gift p { margin-left: 7.5vw; font-size: 2.5vw;}
 
-section.s3 .left_box .box { margin-top:2vw; width: 70%; margin-left: 15vw;}
+section.s3 .left_box .box { margin-top:5vw; width: 70%; margin-left: 15vw;}
 
 section.s3 .box .buttons {width: 60vw; margin: 0 auto;} 
 section.s3 .box .buttons ul li { width:25%; height: 30px; padding:3vw 0.5vw; margin-top: 1vw; }
@@ -1890,16 +1912,88 @@ section.s3 .right_box .photos ul li p {font-size: 1vw; margin-top: 1vw;}
 section.s3 .right_box .photos ul li .graph {width: 74vw;  margin-top: 3vw; height: 45vw; margin-left: 3vw; }
 section.s3 .right_box .photos ul li .search_btn { width:80px; height:80px; padding: 4vw;}
 
-
+section.s3 .right_box .photos ul li:first-child .graph {background-image: url(../img/gm1.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(2) .graph {background-image: url(../img/gm2.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(3) .graph {background-image: url(../img/gm3.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(4) .graph {background-image: url(../img/gm4.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(5) .graph {background-image: url(../img/gm5.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(6) .graph {background-image: url(../img/gm6.png);
+  background-size: cover;} 
+section.s3 .right_box .photos ul li:nth-child(7) .graph {background-image: url(../img/gm7.png);
+  background-size: cover;}
+section.s3 .right_box .photos ul li:nth-child(8) .graph {background-image: url(../img/gm8.png);
+  background-size: cover;}
+section.s3 .right_box .photos ul li:last-child .graph {background-image: url(../img/gm9.png);
+  background-size: cover;}   
 
                         
-#popup { width:400px; height:500px;}
-#popup .close {width:60px; height:55px; font-weight: 550;
-    font-size:40px; padding-right:23px; right:-55px; top:50px;}
+#popup { width:380px; height:500px; margin: 0 auto;}
+#popup .close {width:50px; height:50px; font-weight: 550;
+    font-size:35px; padding-right:13px; right:15px; top:0px;}
 
 
 
 
+section.s4 > div {height: 100vw;}
+section.s4 .s4txt span {font-size: 5vw; line-height:2vw ;}
+section.s4 .s4txt .nemo { margin-left: 3vw; width: 29vw;border: 6px solid #e54848;}
+section.s4 .s4txt .nemo span{ font-size: 4vw; padding: 4vw; }
+section.s4 .s4txt .nemo span:first-child {margin-left: 3vw;}
+
+
+section.s4 .box .tab .tab_title {margin-top: 4vw;}
+section.s4 .box .tab .tab_title ul li a {padding: 1.5vw 2vw; font-size: 2.8vw; margin: 2vw;}
+
+
+section.s4 .box .tab .content {width: 80vw; height: 100vw; margin-top: 5vw;}
+section.s4 .box .tab .content .con_photo {height: 400px; margin-bottom: 10vw;}
+
+section.s4 .box .tab .content .con_btn a { font-size: 3.5vw; padding: 1vw; width: 130px;  padding-bottom: 5.5vw; }
+
+
+
+
+section.s5 .box {width: 90%; height: 50%; margin: 0 auto; margin-top: 15vw; border:18px solid #2f3d98; border-radius: 1vw; }
+section.s5 .box iframe {width: 100%; height: 450px;}
+
+
+.waviy span {position: relative; font-size: 6vw;}
+.icon {display: none;}
+
+
+
+
+
+section.s6 .s6_wrap {display: flex; flex-flow: column nowrap;}
+section.s6 .box {width:60%;}
+section.s6 .box h1 {font-size: 6vw; margin-left: 18vw;}
+
+section.s6 .box h2 {font-size: 4vw; }
+
+section.s6 .box .thankyou_message {margin-top: 1vw;}
+section.s6 form {margin-top: 0.5vw; width: 100vw;}
+
+section.s6 .bondee_wrap {width: 50vw; margin-right: 5vw;  height: 50vw;}
+section.s6 .bondee_wrap .bondee { width: 70vw;}
+section.s6 .bondee_wrap .bondee div {width: 50%;}
+section.s6 .bondee_wrap .bondee .b1 {margin-top: 10vw; margin-right: 30vw;}
+
+section.s6 .bondee_wrap .bondee a {width:40vw; }
+
+
+input {width: 300px;}
+textarea {width: 300px;}
+#submit {width: 332px;}
+
+
+footer {bottom: 4vw; left: 0; width: 100%; height: 2vw;}
+footer small {font-size: 2.3vw;}
+.top {bottom: 30px; right: 15px; width: 35px; height: 35px;}
 
 
 }

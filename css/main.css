@@ -37,6 +37,7 @@ header{height: 4.5vw; background-color: rgba(255, 255, 255, 0.5);  display: flex
 
 header .logo {width: 4vw; height: 4vw; background-image: url(../img/logo2.png); background-position: center;
     background-size: cover; background-repeat: no-repeat; margin-top: -1vw;}
+header .logo  a {height: 100%;}  
 header nav {position: absolute; top: 1vw;left: 50%; transform: translateX(-50%);}
 header nav ul li {float: left; margin-right: 3vw; margin-top: 1vw; position: relative;}
 header nav ul li a { font-family: 'GyeonggiTitleM'; color: #d86057; font-size: 1.3vw;}
@@ -79,10 +80,11 @@ section {height: 1000px;}
 
 section.s1 {background-color: #d86057; position: relative; }
 section.s1 .title { position: absolute; left:50%; transform:translateX(-50%); top:85px;}
-section.s1 .title .t1 {stroke-dasharray: 3000; stroke-dashoffset: 3000; animation: line1 7.5s linear alternate forwards;}
-section.s1 .title .t2 {stroke-dasharray: 100; stroke-dashoffset: 100; animation: line2 0.5s 2.5s linear alternate forwards;}
-section.s1 .title .t3 {stroke-dasharray: 200; stroke-dashoffset: 200; animation: line3 0.7s 2.6s linear alternate forwards;}
-section.s1 .title .t4 {stroke-dasharray: 4000; stroke-dashoffset: 4000; animation: line4 8s 3.3s linear alternate forwards;}
+
+section.s1 .title.active .t1 {stroke-dasharray: 3000; stroke-dashoffset: 3000; animation: line1 7.5s linear alternate forwards;}
+section.s1 .title.active .t2 {stroke-dasharray: 100; stroke-dashoffset: 100; animation: line2 0.5s 2.5s linear alternate forwards;}
+section.s1 .title.active .t3 {stroke-dasharray: 200; stroke-dashoffset: 200; animation: line3 0.7s 2.6s linear alternate forwards;}
+section.s1 .title.active .t4 {stroke-dasharray: 4000; stroke-dashoffset: 4000; animation: line4 8s 3.3s linear alternate forwards;}
 @keyframes line1 {
             0% {stroke-dashoffset: 3000;}
             100% {stroke-dashoffset: 0;}
@@ -1813,13 +1815,16 @@ a {cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
   50% {transform: translateY(-20px);}
 }
 
-
-#fp-nav ul li a {background-image: url(../img/nav.png); width: 30px; height: 30px; background-position: center;
-                background-repeat: no-repeat; background-size: cover;}
-#fp-nav ul li a span, .fp-slidesNav ul li a span {background: none;}
 #fp-nav ul li, .fp-slidesNav ul li { margin: 12px;}
-#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span { width: 40px; height: 40px; }
+#fp-nav ul li a span, .fp-slidesNav ul li a span {background-image: url(../img/nav.png); width: 30px; height: 30px;
+   background-position: center; background-size: cover; background-color: transparent; margin: -12px 0 0 -12px;}
+
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span,
+#fp-nav ul li:hover a.active span, .fp-slideNav ul li:hover a.active span,
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+  background-image: url(../img/nav2.png); width: 36px; height: 36px; margin: -18px 0 0 -18px;}
+#fp-nav ul li .fp-tooltip {margin-right: 0.5vw;}
+
 
 
 

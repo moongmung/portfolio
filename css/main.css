@@ -46,22 +46,22 @@ header nav ul li.active a {font-weight: bold; color: #e54848; }
 header nav ul li.active .heart {display: block;}
 
 
-header nav ul li .heart {width: 11px; display: none;
-  height: 11px;
+header nav ul li .heart {width: 10px; display: none;
+  height: 10px;
   background: #e54848;
   position: relative;
   position: absolute;
   transform: rotate(45deg); top: -0.7vw; left: 0.2vw;}
 header nav ul li .heart::before {content: "";
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   position: absolute;
   border-radius: 50%;
   background: #e54848;
   left: -60%;}
 header nav ul li .heart::after {content: "";
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   position: absolute;
   border-radius: 50%;
   background: #e54848;
@@ -1577,7 +1577,7 @@ section.s4 .box .tab .content .con_btn a { color: #2f3d98; display: inline-block
                                     padding: 1vw;  font-family: 'GyeonggiTitleM'; 
                                     width: 200px; background-image: url(../img/underline.png); background-position: bottom left;
                                     background-size: 200%; background-repeat: no-repeat; padding-bottom: 2.2vw;
-                                    text-align: center; }
+                                    text-align: center; cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
 section.s4 .box .tab .content .con_btn {text-align: center; }
 section.s4 .box .tab .content .con_btn a:hover {background-position: bottom right; color: #e54848;}
 

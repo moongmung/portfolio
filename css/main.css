@@ -29,7 +29,6 @@ header, section, footer, div {box-sizing: border-box;}
 html, body {overflow-x: hidden; }
 
 
-
 .wrap {width: 100%;}
 
 header{height: 4.5vw; background-color: rgba(255, 255, 255, 0.5);  display: flex; padding: 1vw;
@@ -1565,7 +1564,7 @@ section.s4 .box .tab .tab_title ul li a {padding: 0.5vw 1.5vw; background-color:
 
 section.s4 .box .tab .content {margin: 0 auto; margin-top: 1.5vw; position: relative; width: 50vw; height: 32vw;}
 section.s4 .box .tab .content > div {position: absolute; width: 100%;}
-section.s4 .box .tab .content .con_photo {border: 22px solid #2f3d98; height: 600px; overflow: hidden; position: relative;
+section.s4 .box .tab .content .con_photo {border: 22px solid #2f3d98; height: 550px; overflow: hidden; position: relative;
                                         margin-bottom: 1vw;}
 section.s4 .box .tab .content .con_photo img {display: block; left: 0; position: absolute; top: 0;
                                 -webkit-transform: translate3d(0px, 0px, 0px); -ms-transform: translate3d(0px, 0px, 0px);
@@ -1574,11 +1573,11 @@ section.s4 .box .tab .content .con_photo img {display: block; left: 0; position:
                                  width: 100%}
 
 section.s4 .box .tab .content .con_btn a { color: #2f3d98; display: inline-block; font-size: 1.3vw; font-weight: bold; font-style: italic;
-                                    padding: 1vw;  font-family: 'GyeonggiTitleM'; 
-                                    width: 200px; background-image: url(../img/underline.png); background-position: bottom left;
-                                    background-size: 200%; background-repeat: no-repeat; padding-bottom: 2.2vw;
-                                    text-align: center; cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
-section.s4 .box .tab .content .con_btn {text-align: center; }
+                                    padding: 0.5vw;  font-family: 'GyeonggiTitleM';height: 50px; margin-top: 1vw;
+                                    width: 180px; background-image: url(../img/underline.png); background-position: bottom left;
+                                    background-size: 200%; background-repeat: no-repeat; margin-right: 2vw;
+                                    text-align: center;}
+section.s4 .box .tab .content .con_btn {text-align: center;}
 section.s4 .box .tab .content .con_btn a:hover {background-position: bottom right; color: #e54848;}
 
 
@@ -1805,8 +1804,8 @@ footer small {font-size: 0.8vw; color: #2f3d98;}
 .top:hover {transform: rotate('0'); animation: up 0.7s ;}
 
 /* cursor { cursor : url(cursor.png) 20 30, url(cursor.png) 20 30, auto; } */
-body, html {cursor: url(../img/cursor2.png), url(../img/cursor2.png), auto}
-a {cursor: url(../img/cursor.png), url(../img/cursor.png), auto}
+body, html {cursor: url(../img/cursor3.png), url(../img/cursor3.png), auto}
+a {cursor: url(../img/cursor4.png),  auto}
 .popup_box::-webkit-scrollbar {background-color: #faf3db;}
 .popup_box::-webkit-scrollbar-thumb {background-color: #e54848; border-radius: 50px; }
 

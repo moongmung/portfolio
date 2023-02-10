@@ -1,4 +1,4 @@
-$(document).ready(function(){        
+$(document).ready(function(){  
     //section.s1의 제목 애니메이션
     function titleAnimation(){
         $('section.s1 .title').toggleClass('active');
@@ -156,31 +156,37 @@ $(document).ready(function(){
         }
     }
     function skillZero1(){
+        clearInterval(interval1)
         percent1=0;
         cnt1.text(percent1);  
         water1.css({'transform':'translate(0,100%)'});
     }
     function skillZero2(){
+        clearInterval(interval2)
         percent2=0;
         //cnt2.text(percent2);  
         water2.css({'transform':'translate(0,100%)'});
     }
     function skillZero3(){
+        clearInterval(interval3)
         percent3=0;
         //cnt3.text(percent3);  
         water3.css({'transform':'translate(0,100%)'});
     }
     function skillZero4(){
+        clearInterval(interval4)
         percent4=0;
         //cnt4.text(percent4);  
         water4.css({'transform':'translate(0,100%)'});
     }
     function skillZero5(){
+        clearInterval(interval5)
         percent5=0;
         //cnt5.text(percent5);  
         water5.css({'transform':'translate(0,100%)'});
     }
     function skillZero6(){
+        clearInterval(interval6)
         percent6=0;
         //cnt6.text(percent6);  
         water6.css({'transform':'translate(0,100%)'});
